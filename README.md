@@ -1,4 +1,3 @@
-```markdown
 # ioStandard Library
 
 The `ioStandard` library provides a simple and customizable set of input and output elements for Pygame applications. This library includes a text box (`textBox`), slider (`slider`), button (`button`), check box (`checkBox`), file uploader (`fileUploader`), text display (`text`), and progress bar (`progressBar`).
@@ -295,7 +294,9 @@ progress_text = text(100, 150)
 running = True
 while running:
     for event in pygame.event.get():
-        if event.type == pygame.QUIT:
+       
+
+ if event.type == pygame.QUIT:
             running = False
 
     # Update the progress value (for example, based on some task completion)
@@ -341,4 +342,3 @@ custom_input_box = textBox(200, 100, theme=custom_theme)
 This library is distributed under the MIT license. See the `LICENSE` file for details.
 
 Feel free to contribute or report issues on [GitHub](https://github.com/Jackfiddilydimss/ioStandard).
-```

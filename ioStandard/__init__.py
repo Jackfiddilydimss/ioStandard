@@ -1,2 +1,2 @@
-from .input import textBox
+from .input import inputBox
 from .output import text
